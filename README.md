@@ -197,3 +197,26 @@ Generate images from other data source.
   * README file (How to  compile and load the model to generate images)
   
   * 25 generated images
+
+## Tips of Using GPU on Turing Server
+
+* [Apply Turing account](http://arc.wpi.edu/computing/accounts/turing-accounts/)
+
+    * [Turing documentation](http://arc.wpi.edu/cluster-documentation/build/html/batch_manager.html)
+
+* Install anaconda on Turing
+
+    * [Download](https://www.anaconda.com/distribution/#linux) anaconda with Python 3 for Linux installer
+    
+    * Upload it to your Turing account
+    
+    * Install anaconda // Linux command: bash \*\*.sh
+    
+    * Activate anaconda // Linux command: source ~/.bashrc
+
+* [Create virutal environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands )
+    * Create virtual environment // Linux command: conda create -n myenv python=3.6
+    
+    * Activate virtual environment // Linux command: conda activate myenv
+    
+* Install packages in virtual environment    
