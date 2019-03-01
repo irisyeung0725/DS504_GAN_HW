@@ -170,3 +170,30 @@ You can get full credits if the scripts can run successfully (i.e., TA will test
 
 You can get full credits if all the generated images can be recognized, otherwise you may loss some points.
 
+## Bonus (10 points)
+
+Generate images from other data source.
+
+* Data set
+
+  Here are some images you may interest. Note other data sets are also allowed.
+  
+  [Face](https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg)
+  
+  [Dogs and Cats](https://www.kaggle.com/c/dogs-vs-cats/data)
+  
+  [Anime](https://drive.google.com/drive/folders/1mCsY5LEsgCnc0Txv0rpAUhKVPWVkbw5I)
+  
+* Package
+
+  You are allowed to use any deep learning package, such as Tensorflow, Pytorch, etc.
+  
+* Deliverable
+
+  * Code
+  
+  * Model
+  
+  * README file (How to  compile and load the model to generate images)
+  
+  * 25 generated images
