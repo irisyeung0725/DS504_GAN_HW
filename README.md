@@ -220,3 +220,5 @@ Generate images from other data source.
     * Activate virtual environment // Linux command: conda activate myenv
     
 * Install packages in virtual environment    
+
+A [Tutorial](TuringTutorial.pdf) file is attached which also contains some basic commands for Linux.
