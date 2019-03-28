@@ -35,7 +35,7 @@ g.compile(loss='binary_crossentropy', optimizer=adam, metrics=['accuracy'])
 
 # Discrinimator
 d = Sequential()
-d.add(Dense(256))
+d.add(Dense(256,input_dim=784))
 d.add(Activation("relu"))
 d.add(Dense(1, activation='sigmoid'))
 d.compile(loss='binary_crossentropy', optimizer=adam, metrics=['accuracy'])
